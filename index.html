@@ -10,8 +10,35 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-
-
-
+  <section class="contact pad-t-2 pad-b-2">
+    <div class="max-length">
+      <h1>Send us a sweet little note</h1>
+      <form class="push-0" action="https://formspree.io/mile0055@algonquincollege.com" method="post">
+        <div class="push">
+          <label for="name">Name</label>
+          <input id="name" name="name">
+        </div>
+        <div class="push">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="me@me.com" name="email" value="">
+        </div>
+        <div class="push">
+          <label for="subject">Subject</label>
+          <select id="subject" class="" name="_subject">
+            <option value="">Get a quote</option>
+            <option value="">General question</option>
+            <option value="">Just to talk</option>
+          </select>
+        </div>
+        <div class="push">
+          <label for="details">Details</label>
+          <textarea id="details" name="message"></textarea>
+        </div>
+        <div class="">
+          <button class="btn btn-light" value="Send" type="submit">Send message</button>
+        </div>
+      </form>
+    </div>
+  </section>
 </body>
 </html>
